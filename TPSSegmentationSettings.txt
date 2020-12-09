@@ -1,0 +1,25 @@
+# TPS Segmentation Settings# arguments for utils.py or utils.RPathtoImages = /Users/mayasamuels-fair/Desktop/ForJPGsWorkingDirectory = /Users/mayasamuels-fair/Desktop/NewPythonWorkingFolder
+TIF = True
+Crop = False
+PathtoTPS = /Users/mayasamuels-fair/Desktop/TPSfiles
+ImageSize = 256
+PathtoTestImages = /Users/mayasamuels-fair/Desktop/UnpreppedTestingImages
+PathtoTPSoo = /Users/mayasamuels-fair/Desktop/Scripts9.4/tps-oo-2.R
+ExcelPath = None
+FolderofContourFiles = None
+PopName = Mix
+Scale = 1
+
+# additional arguments for train_transferlearning.py
+TRAIN_PATH = /Users/mayasamuels-fair/Desktop/WorkingFolder/Training
+TEST_PATH = /Users/mayasamuels-fair/Desktop/WorkingFolder/Test
+MODEL = transfer_model.h5
+SET_SEED = False
+BACKBONE = vgg16
+PATIENCE = 20
+VAL_SPLIT = 0.2
+BATCH_SIZE = 40
+EPOCHS = 100
+
+# additional arguments for make_predictions.py
+FIN_IMG_WIDTH = 2880
